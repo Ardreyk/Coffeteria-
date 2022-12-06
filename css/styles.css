@@ -43,8 +43,10 @@ body {
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: #247766;
   transition: background 0.3s ease-in-out;
+  color: #aaa;
+  box-shadow: 1px 5px 5px 0px #333;
 }
 
 /* ............/////............ *
@@ -107,7 +109,9 @@ body {
   text-decoration: none;
   color: #aaa;
 }
-
+.logo a:hover{
+  color: #16a080;
+}
 /* ............/////............ */
 
 .showcase-area {
@@ -455,6 +459,9 @@ body {
 #footer h2 a {
   color: #ddd;
   text-decoration: none;
+}
+#footer h2 a:hover{
+  color: burlywood;
 }
 
 /* ......../ media query /.......... */
