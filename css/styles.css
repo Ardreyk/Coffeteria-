@@ -511,7 +511,7 @@ body {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    background: #395;
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -530,7 +530,7 @@ body {
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: #aaa;
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -539,7 +539,7 @@ body {
     margin-left: -40px;
     padding-left: 50px;
     transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #aaa;
+    box-shadow: 5px 0px 10px 0px #000;
   }
 
   .navbar .menu-items li {
@@ -553,6 +553,10 @@ body {
     top: 5px;
     right: 15px;
     font-size: 2rem;
+  }
+
+  .logo a {
+    color: #395;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -589,6 +593,9 @@ body {
   .img-container {
     margin: 0;
   }
+}
+.about  .about-img img{
+  display: none;
 }
 
 @media (max-width: 500px) {
@@ -655,5 +662,8 @@ body {
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
     height: 50vmax;
+  }
+  .about  .about-img img{
+    display: none;
   }
 }
